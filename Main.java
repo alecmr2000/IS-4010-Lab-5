@@ -41,7 +41,7 @@ class Main {
     }
     //Above is setting "sum" equal to the sum of each values in the array.
 
-    System.out.println("The average GAP is " + sum / gpas.size());
+    System.out.println("The average GPA is " + sum / gpas.size());
     //Above is calculating and printing the average GPA.
   }
 }
