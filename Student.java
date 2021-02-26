@@ -1,3 +1,9 @@
+/* 
+Lab 5
+Partners: Alec Rezelj and Kiley Hardcorn
+Date: 02.25.2021
+*/
+
 class Student {
   String name;
   double gpa;
@@ -26,4 +32,12 @@ class Student {
   void setMajor(String theMajor) {
     major = theMajor;
   }
+
+  public void print(){
+    System.out.println("The student's name is " + name);
+    System.out.println("The student's GPA is " + gpa);
+    System.out.println("The student's major is " + major);
+
+  }
+  //Above is creating a print method.
 }
